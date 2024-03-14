@@ -1,0 +1,492 @@
+body > * {
+    width: 60rem;
+    margin: auto;
+       }
+   
+section{
+    display: flex;
+}
+section {
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+.logga{
+    float:left;
+    margin-top: 2%;
+   margin: 2%;
+   transform: translate(-50%-50%);
+  
+}
+
+.pageheader {
+    background-image: url("../Images/middagsbord.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+height: 300px;
+max-width: 100%;
+margin-block-end: auto;
+order: 1;
+    
+}
+.mainheader {
+    font-family:system-ui;
+    color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    order: 1;
+    
+}
+a {
+    font-family: system-ui;
+    padding: 10px;
+    text-decoration: none;
+    color: #0e0d0d;
+    border-radius: 10px;
+    
+   }
+   a:hover{
+       background-color: hsl(216,70%,80%);
+   }
+   li{
+       display: inline;
+   }
+   .menu {
+    float: right;
+    margin-top: 75%;
+    margin: auto;
+    transform: translate(-50%-50%);
+   /*slut på övre navbaren(headern)*/
+
+   }
+   .sidebar{
+    background-color: hsl(216,70%,80%);
+ order: 2;
+   }
+   /*söknapp varför går det inte att ändra top eller left när den är sticky ?*/
+ #search {
+    position:absolute; 
+    top:70%;
+    left: 10%;
+}
+#query {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  /*söknapp*/
+   
+   main{
+    order:3;
+   }
+   h2{
+  
+    font-family: system-ui;
+    color:#0c0d0d;  
+   
+    
+}
+
+.myDiv{ 
+    background-color: rgb(249, 251, 252);    
+    text-align:start;
+    height:fit-content;
+    margin:auto;
+    padding-top: 0%;
+    padding-right: 3%;
+    padding-bottom: 7%;
+    padding-left: 3%;
+  
+    
+}
+
+p
+{font-family: system-ui;
+color: rgb(59, 38, 12); font-size: smaller;
+text-align:start;
+padding-right: 2%;
+padding-left: 2%;
+}
+
+main{
+    order:3;
+   }
+   
+
+.bild{
+    width: 300px;
+    height: 300px;
+   
+    padding-right:10% ;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-top: 0%;
+    
+}
+.floating{
+    float:left; 
+   
+}
+.clearfix {
+    content: "p,#om-oss,#vierbjuder";
+    clear:both;
+    display: table;
+        border:none;
+        
+          
+}
+
+/*rutan ovanför*/
+
+#prick{
+    display: list-item; font-family: system-ui;
+    color: rgb(59, 38, 12); 
+    text-align:start;
+    font-size: smaller;
+}
+/* nyhetsbox*/
+#nyhetsbrev
+{
+    font-family: system-ui;}
+
+#om-oss {
+    position:relative;
+    float:center;
+    left: 38%;
+   
+    }
+
+
+        
+    .myDiv2{ 
+        background-color:rgb(249, 251, 252);  
+        text-align:start;
+        height:fit-content;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+        padding-top: 0%;
+        padding-right: 3%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+        background:cover;
+        
+    }
+
+.foto{   
+    width: 300px;
+    height: 300px;
+   
+    padding-right:10% ;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-top: 0%;
+}
+#vierbjuder{
+    position:relative;
+    right: 0%;
+    bottom: 2%;
+}
+#vt{
+    display: list-item; font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(59, 38, 12); 
+    text-align:start; font-size: small; 
+}
+/*bilder till grid*/
+.bildgrid {
+    display: grid;
+    row-gap: 2px;
+    grid-template-columns: auto auto auto;
+   
+    padding: 5px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+  }
+/*w3schools grid*/
+.w3grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #2a8c78;
+    padding: 2px;
+  }
+  .grid-item {
+    background-color:  #FDECF0;
+    border: none;
+    padding: 20px;
+    font-family: system-ui;
+    font-size:medium;
+    text-align: center;
+  }
+
+    /*recept*/
+    .container {
+        background: #fff;
+        margin-top: 1%;
+      }
+      
+      .our-team {
+        padding: 0.75rem;
+        background: #fff;
+        border-radius: 1rem;
+        text-align: center;
+        border: 0.5px solid #60c5a8;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      }
+      .our-team .pic {
+        display: inline-block;
+        width: 25%;
+        height: 25%;
+        background: #fff;
+       
+        margin-bottom: 1.5rem;
+        transition: all 0.5s ease 0s;
+      }
+      .our-team:hover .pic {
+        background: #60c5a8;
+        border-radius: 50%;
+      }
+      .pic img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+      .our-team .title {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #60c5a8;
+        margin: 0 0 7px 0;
+      }
+      .our-team .post {
+        display: block;
+        font-size: 1rem;
+        color: #60c5a8;
+        margin-bottom: 1rem;
+      }
+      .our-team .social {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      .our-team .social li {
+        display: inline-block;
+        margin-right: 5px;
+      }
+      .our-team .social li a {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        border-radius: 50%;
+        font-size: 1rem;
+        color: #60c5a8;
+        border: 1px solid #60c5a8;
+        transition: all 0.5s ease 0s;
+      }
+      .our-team:hover .social li a {
+        background: #60c5a8;
+        color: #fff;
+      }
+      
+      .social li a:hover {
+        background-color: #025784 !important;
+        border: none;
+        text-decoration: none;
+      }
+      
+      @media only screen and (max-width: 992px) {
+        .our-team {
+          margin-bottom: 2rem;
+        }
+      }
+      
+  
+/*recept*/      
+
+    
+/*annonser*/
+aside{
+    background-color:rgb(249, 251, 252);
+    background: cover;
+    order:4;
+
+  
+
+}
+.annons {
+  
+   
+    padding-right:5% ;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin:auto;
+  
+   
+}
+/*footer*/
+    footer {
+        background-color: rgb(240, 232, 222);
+        height: 250px;
+
+        order:5
+    }
+    .logga{
+        float:left;
+        margin-top: 2%;
+       margin: 2%;
+       transform: translate(-50%-50%);
+      
+    }
+   #copyn{
+    font-family: system-ui;
+    
+    border-bottom: 2px;
+    margin-top: 2%;
+   margin: auto;
+  
+       
+      
+   }
+    
+    .horisontellf
+    {
+        display: flex;
+        flex-direction: row;
+        float:left;
+        transform: translate(-50%-50%);
+        height:fit-content;
+   font-family:system-ui;
+    color: rgb(59, 38, 12);
+    font-size: small;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        
+        }
+        
+        .footerbox{
+        border:none;
+        padding: 4px;
+        width: 160px;
+        margin: 2px;
+        
+        
+        }
+        .footerbox2{
+            border:none;
+            padding: 4px;
+            width: 160px;
+            margin: 2px;
+           
+            }
+            .footerbox3{
+                border:none;
+                padding: 4px;
+                width: 160px;
+                margin: 2px;
+                
+                }
+                .footerbox4{
+                    border:none;
+                    padding: 4px;
+                    width: 160px;
+                    margin: auto
+                    
+            
+                    }
+                    .betalningsmetod{
+                        display: flex;
+        flex-direction: row;
+        float:inline-end;
+        transform: translate(-50%-50%);
+        height:fit-content;
+  
+    font-family:system-ui;
+    color: rgb(59, 38, 12);
+    font-size: small;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+    
+                    }
+                    .fotbox{
+                        border:2px solid rgba(49, 103, 76, 0.7);
+                        padding: 4px;
+                        width: 500px;
+                        margin: 2px;
+                        border-color: none; }
+/*footer*/
+
+body > * {
+    width: 95rem;
+    margin: auto;
+   }
+   section {
+    display: flex;
+   }
+   section > * {
+    padding:1em;
+    box-sizing: border-box;
+   }
+    .holygrail {
+     
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .holygrail .pageheader, .holygrail .mainheader,
+    .holygrail footer {
+        flex-basis: 100%;
+    }
+.holygrail .sidebar {
+    flex-basis: 20%;
+   }
+    
+    .holygrail main {
+        flex-grow:2;
+       flex-basis: 30%;
+      
+    }
+    .holygrail .aside{
+        flex-basis:25%;
+    }
+    
