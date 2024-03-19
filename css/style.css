@@ -115,7 +115,7 @@ a {
 }
 
 .myDiv{ 
-    background-color: rgb(177, 117, 146);    
+    background-color:white;    
     text-align:start;
     height:fit-content;
     margin:auto;
@@ -260,7 +260,7 @@ main{
     padding: 2px;
   }
   .grid-item {
-    background-color:  #FDECF0;
+    background-color: #f0e8de;
     border: none;
     padding: 20px;
     font-family: system-ui;
