@@ -38,7 +38,7 @@ order: 1;
     background-position: center;
     position:absolute;
     top: 25%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
     order: 1;
     
@@ -49,6 +49,7 @@ a {
     text-decoration: none;
     color: #0e0d0d;
     border-radius: 10px;
+    position:sticky;
     
    }
    a:hover{
@@ -63,6 +64,7 @@ a {
     margin: auto;
     transform: translate(-50%-50%);
     background-color: #f0e8de;
+    position:sticky;
    /*slut på övre navbaren(headern)*/
 
    }
@@ -393,16 +395,16 @@ aside{
        transform: translate(-50%-50%);
       
     }
-   #copyn{
-    font-family: system-ui;
+    #copyn{
+      font-family: system-ui;
+      float:right;
+      border-bottom: 30px;
+      margin-top: 50%;
+     margin: auto;
     
-    border-bottom: 2px;
-    margin-top: 2%;
-   margin: auto;
-  
-       
-      
-   }
+         
+        
+     }
     
     .horisontellf
     {
@@ -417,45 +419,21 @@ aside{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+   
         
-        }
-        
-        .footerbox{
-        border:none;
-        padding: 4px;
-        width: 160px;
-        margin: 2px;
-        
-        
-        }
-        .footerbox2{
-            border:none;
-            padding: 4px;
-            width: 160px;
-            margin: 2px;
-           
-            }
-            .footerbox3{
-                border:none;
-                padding: 4px;
-                width: 160px;
-                margin: 2px;
-                
-                }
+    }
                 .footerbox4{
                     border:none;
                     padding: 4px;
                     width: 160px;
-                    margin: auto
+                    margin: auto;
                     
+          
+                 
+                  
             
                     }
-                    .betalningsmetod{
-                        display: flex;
-        flex-direction: row;
-        float:inline-end;
-        transform: translate(-50%-50%);
-        height:fit-content;
+                    {
   
     font-family:system-ui;
     color: rgb(59, 38, 12);
@@ -467,12 +445,7 @@ aside{
    
     
                     }
-                    .fotbox{
-                        border:2px solid rgba(49, 103, 76, 0.7);
-                        padding: 4px;
-                        width: 500px;
-                        margin: 2px;
-                        border-color: none; }
+                    
 /*footer*/
 
 body > * {
