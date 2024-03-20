@@ -37,7 +37,7 @@ order: 1;
     background-position: center;
     position:absolute;
     top: 25%;
-    left: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
     order: 1;
     
@@ -356,7 +356,7 @@ main{
     
 /*annonser*/
 aside{
-    background-color:rgb(100, 161, 192);
+    background-color:#fff;
     background: cover;
     order:4;
 
