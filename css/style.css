@@ -27,7 +27,7 @@ background-size:cover;
 height: 300px;
 max-width: 100%;
 margin-block-end: auto;
-background-color: #f0e8de;
+
 order: 1;
     
 }
@@ -38,7 +38,7 @@ order: 1;
     background-position: center;
     position:absolute;
     top: 25%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     order: 1;
     
