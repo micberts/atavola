@@ -5,7 +5,7 @@ function buildmenu()
 ["Receptförslag", "recept.html"],
 ["Samarbeten", "samarbeten.html"],
 ["Media", "media.html"],
-["Nyhetsbrev", "https://micaelareutersward2.wordpress.com/"]
+["Tyck till", "https://micaelareutersward2.wordpress.com/95-2/"]
 ];
 
 var content = ""
