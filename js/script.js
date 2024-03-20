@@ -21,9 +21,5 @@ document.getElementById("menu").innerHTML = content;
 
 }
 
- // Fyller footerns meny
- var footerMenu = document.getElementById("footer-menu");
- if (footerMenu) {
-     footerMenu.innerHTML = content;
- }
 
+ 
