@@ -59,12 +59,13 @@ a {
        display: inline;
    }
    #menuihead {
-    float: right;
-    margin-top: 5%;
+    float:right;
+    margin-top: 2%;
     margin: auto;
     transform: translate(-50%-50%);
     background-color: #f0e8de;
     position:sticky;
+  
    /*slut på övre navbaren(headern)*/
 
    }

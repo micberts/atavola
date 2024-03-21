@@ -2,7 +2,7 @@ function buildmenu()
 {
     var links = [
 ["Startsida", "index.html"],
-["Receptförslag", "recept.html"],
+["Recept", "recept.html"],
 ["Samarbeten", "samarbeten.html"],
 ["Media", "media.html"],
 ["Tyck till", "https://micaelareutersward2.wordpress.com/95-2/"]
